@@ -1,0 +1,89 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* All common css end */
+/* Header Part start  */
+#header_part{
+    
+}
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    width: 40%;
+    padding-top: 20px;
+}
+.menu{
+    width: 40%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    padding: 0 15px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+.icons{
+    padding-top: 30px;
+    width: 20%;
+}
+.icons i{
+    margin-left: 10px;
+}
+/* Header Part end  */
+#banner_part{
+    padding-top: 205px;
+    padding-bottom: 140px;
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner_text h1 {
+	font-size: 64px;
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	padding-right: 659px;
+    color: white;
+}
+.banner_text p {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(255, 255, 255);
+	padding-right: 625px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.banner_text a{
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    display: inline-block;
+}
+/* banner part start */
